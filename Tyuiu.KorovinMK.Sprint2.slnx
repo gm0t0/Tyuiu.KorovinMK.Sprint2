@@ -1,7 +1,12 @@
 <Solution>
   <Folder Name="/Task0/">
+    <Project Path="Tyuiu.KorovinMK.Sprint2.Task0.V27.Lib/Tyuiu.KorovinMK.Sprint2.Task0.V27.Lib.csproj" />
+    <Project Path="Tyuiu.KorovinMK.Sprint2.Task0.V27.Test/Tyuiu.KorovinMK.Sprint2.Task0.V27.Test.csproj" />
     <Project Path="Tyuiu.KorovinMK.Sprint2.Task0.V27/Tyuiu.KorovinMK.Sprint2.Task0.V27.csproj" />
   </Folder>
-  <Project Path="Tyuiu.KorovinMK.Sprint2.Task0.V27.Lib/Tyuiu.KorovinMK.Sprint2.Task0.V27.Lib.csproj" />
-  <Project Path="Tyuiu.KorovinMK.Sprint2.Task0.V27.Test/Tyuiu.KorovinMK.Sprint2.Task0.V27.Test.csproj" />
+  <Folder Name="/Task1/">
+    <Project Path="Tyuiu.KorovinMK.Sprint2.Task1.V8.Lib/Tyuiu.KorovinMK.Sprint2.Task1.V8.Lib.csproj" Id="7c1009ce-a448-4cfe-bd49-df0fc3c1388d" />
+    <Project Path="Tyuiu.KorovinMK.Sprint2.Task1.V8.Test/Tyuiu.KorovinMK.Sprint2.Task1.V8.Test.csproj" Id="b44cc4d4-b8e7-49b5-a2a8-27785e95ba8c" />
+    <Project Path="Tyuiu.KorovinMK.Sprint2.Task1.V8/Tyuiu.KorovinMK.Sprint2.Task1.V8.csproj" Id="4b630688-daec-4b0e-9b53-63c52d4fd63b" />
+  </Folder>
 </Solution>

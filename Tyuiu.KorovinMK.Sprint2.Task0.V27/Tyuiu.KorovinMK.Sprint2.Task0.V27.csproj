@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.KorovinMK.Sprint2.Task0.V27.Lib\Tyuiu.KorovinMK.Sprint2.Task0.V27.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.KorovinMK.Sprint2.Task0.V27.Test\Tyuiu.KorovinMK.Sprint2.Task0.V27.Test.csproj" />
   </ItemGroup>
 
 </Project>
