@@ -14,6 +14,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task5.V13.Test
             string wait = "2024.2.29";
             var res = ds.FindDateOfNextDay(g, m, n);
             Assert.AreEqual(wait, res);
+
         }
     }
 }

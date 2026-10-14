@@ -28,16 +28,21 @@ namespace Tyuiu.KorovinMK.Sprint2.Task5.V13
             int m = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите день:");
             int n = Convert.ToInt32(Console.ReadLine());
+            if (n > 31 || m > 12)
+            {
+                Console.WriteLine("Ошибка");
+            }
+            else
+            {
+                var res = ds.FindDateOfNextDay(g, m, n);
 
-            var res = ds.FindDateOfNextDay(g, m, n);
+                Console.WriteLine("*****************************************************************************");
+                Console.WriteLine("Результат:                                                                  *");
+                Console.WriteLine("*****************************************************************************");
 
-            Console.WriteLine("*****************************************************************************");
-            Console.WriteLine("Результат:                                                                  *");
-            Console.WriteLine("*****************************************************************************");
+                Console.WriteLine("Следущий день:" + res);
 
-            Console.WriteLine("Следущий день:" + res);
-
-
+            }
 
             Console.ReadLine();
 
