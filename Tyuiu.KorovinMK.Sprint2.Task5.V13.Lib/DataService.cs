@@ -50,7 +50,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task5.V13.Lib
                 }
             }
             
-            var res = ("0" + n + ".0" + m + "." + g);
+            var res = ("0" + m + ".0" + n + "." + g);
             return res;
                     
         }
