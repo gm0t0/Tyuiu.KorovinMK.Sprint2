@@ -10,10 +10,11 @@ namespace Tyuiu.KorovinMK.Sprint2.Task6.V13.Test
             DataService ds = new DataService();
             int g = 2024;
             int m = 2;
-            int n = 28;
-            string wait = "2024.2.29";
-            var res = ds.FindDateOfNextDay(g, m, n);
+            int n = 8;
+            string wait = "09.02.2024";
+            var res = ds.FindDateOfNextDay(n, m, g);
             Assert.AreEqual(wait, res);
+
         }
     }
 }

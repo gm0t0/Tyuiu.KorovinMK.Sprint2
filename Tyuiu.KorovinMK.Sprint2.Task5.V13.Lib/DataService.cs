@@ -3,7 +3,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task5.V13.Lib
 {
     public class DataService : ISprint2Task5V13
     {
-        public string FindDateOfNextDay(int g, int m, int n)
+        public string FindDateOfNextDay(int n, int m, int g)
         {
             int days = 0;
             switch (m)
@@ -50,7 +50,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task5.V13.Lib
                 }
             }
             
-            var res = (g + "." + m + "." + n);
+            var res = ("0" + n + ".0" + m + "." + g);
             return res;
                     
         }
