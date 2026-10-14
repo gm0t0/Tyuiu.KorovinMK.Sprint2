@@ -1,7 +1,7 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint2;
 namespace Tyuiu.KorovinMK.Sprint2.Task6.V13.Lib
 {
-    public class DataService : ISprint2Task5V13
+    public class DataService : ISprint2Task6V13
     {
         public string FindDateOfNextDay(int n, int m, int g)
         {
@@ -31,9 +31,9 @@ namespace Tyuiu.KorovinMK.Sprint2.Task6.V13.Lib
 
             }
 
-            if (n < days)
+            if (g < days)
             {
-                n++;
+                g++;
             }
             else
             {
@@ -42,7 +42,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task6.V13.Lib
                 if (m == 12)
                 {
                     m = 1;
-                    g++;
+                    n++;
                 }
                 else
                 {
@@ -50,7 +50,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task6.V13.Lib
                 }
             }
 
-            var res = ("0" + n + ".0" + m + "." + g);
+            var res = ("0" + g + ".0" + m + "." + n);
             return res;
 
         }

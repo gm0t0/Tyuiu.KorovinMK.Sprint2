@@ -12,7 +12,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task6.V13
             Console.WriteLine("*****************************************************************************");
             Console.WriteLine("* Спринт #2                                                                 *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                          *");
-            Console.WriteLine("* Задание #5                                                                *");
+            Console.WriteLine("* Задание #6                                                                *");
             Console.WriteLine("* Вариант #13                                                               *");
             Console.WriteLine("* Выполнил: Коровин Матвей Константинович| ИСТНб-26-1                       *");
             Console.WriteLine("*****************************************************************************");
@@ -23,21 +23,20 @@ namespace Tyuiu.KorovinMK.Sprint2.Task6.V13
             Console.WriteLine("*****************************************************************************");
 
 
+
             Console.WriteLine("Введите год:");
-            int g = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите месяц:");
             int n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите день:");
+            Console.WriteLine("Введите месяц:");
             int m = Convert.ToInt32(Console.ReadLine());
-
-
-            if (n > 31 || m > 12)
+            Console.WriteLine("Введите день:");
+            int g = Convert.ToInt32(Console.ReadLine());
+            if (g > 31 || m > 12)
             {
                 Console.WriteLine("Ошибка");
             }
             else
             {
-                var res = ds.FindDateOfNextDay(m, n, g);
+                var res = ds.FindDateOfNextDay(n, m, g);
 
                 Console.WriteLine("*****************************************************************************");
                 Console.WriteLine("Результат:                                                                  *");
@@ -53,3 +52,4 @@ namespace Tyuiu.KorovinMK.Sprint2.Task6.V13
         }
     }
 }
+

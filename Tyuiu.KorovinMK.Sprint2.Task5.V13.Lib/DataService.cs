@@ -31,9 +31,9 @@ namespace Tyuiu.KorovinMK.Sprint2.Task5.V13.Lib
 
             }
 
-            if (n < days)
+            if (g < days)
             {
-                n++;
+                g++;
             }
             else
             {
@@ -42,7 +42,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task5.V13.Lib
                 if (m == 12)
                 {
                     m = 1;
-                    g++;
+                    n++;
                 }
                 else
                 {
@@ -50,7 +50,7 @@ namespace Tyuiu.KorovinMK.Sprint2.Task5.V13.Lib
                 }
             }
             
-            var res = ("0" + m + ".0" + n + "." + g);
+            var res = ("0" + g + ".0" + m + "." + n);
             return res;
                     
         }
